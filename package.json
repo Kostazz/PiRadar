@@ -1,0 +1,8 @@
+git init
+git add -A
+git commit -m "feat: initial PiRadar MVP (KryptoKámoš theme)"
+git branch -M main
+git remote add origin https://github.com/<TVŮJ-USER>/piradar-web.git
+# protože jsi na GitHubu vytvořil README, stáhneme ho a spojíme historie:
+git pull origin main --allow-unrelated-histories
+git push -u origin main
